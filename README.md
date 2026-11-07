@@ -25,3 +25,12 @@ Git LFS is used to track and store all `.uasset` and `.umap` binary files.
 ## Why the Cast check is needed for the Coin?
 
 The `Cast to BP_Hero` node is strictly necessary to verify the identity of the actor touching the coin.
+
+
+## UI Optimization:
+
+The HUD score is updated via a custom function only when a coin is collected. Per-frame property bindings were avoided because they evaluate the value every frame, which wastes CPU performance.
+
+## Audio sources :
+
+https://mixkit.co/free-sound-effects/
