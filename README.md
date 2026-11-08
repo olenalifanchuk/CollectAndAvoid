@@ -60,7 +60,7 @@ The HUD score is updated via a custom function only when a coin is collected. Pe
 
 * **Audio sources:** Free sound effects from https://mixkit.co/ (Mixkit Free License).
 
-* **Environment Assets:** Built using standard Unreal Engine Starter Content (Epic Games Content License).
+* **Environment Assets:** Level arena built using standard Unreal Engine basic geometric shapes.
 
 
 ## Profiling and Optimization
